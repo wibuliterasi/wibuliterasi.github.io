@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Wibu Literasi</title>
+  <meta name="description" content="Mari sebarkan literasi." />
+
+  <style>
+    :root {
+      --bg: #fafafa;
+      --text: #1f2933;
+      --muted: #6b7280;
+      --accent: #6366f1; /* ganti nanti kalau mau */
+      --max-width: 720px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0f172a;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: auto;
+      padding: 1.75rem 1.25rem 4rem;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 0.5rem 0;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: var(--muted);
+      margin: 0;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      margin: 0 0 1.25rem 0;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Wibu Literasi</h1>
+      <p>Arsip Literasi</p>
+    </header>
+
+    <section>
+      <h2>Tentang</h2>
+      <p>
+        Ini adalah Arsip tentang literasi. 
+      </p>
+    </section>
+
+    <section>
+      <h2>Apa itu Literasi</h2>
+      <!-- nanti kamu bisa ganti jadi list artikel -->
+    </section>
+
+    <footer>
+      <p>
+        © 2026 — Wibu literasi
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
